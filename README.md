@@ -1,10 +1,10 @@
-##Hand Gesture Recognition Using FRDM KL25Z Board
+## Hand Gesture Recognition Using FRDM KL25Z Board
 This project implements hand gesture recognition using the FRDM KL25Z development board, which includes a Cortex-M0+ processor and an inbuilt accelerometer. The project uses the Keil uVision IDE for programming the board in ARM assembly or C. Hand movements along the X, Y, and Z axes are detected by the board's accelerometer, and specific gestures are recognized by monitoring changes in the accelerometer's output. These gestures are then used to control external devices through output ports.
 
-##Project Aim
+## Project Aim
 The goal of this project is to recognize hand gestures and use them to control external devices through output ports. An oscilloscope is used to visualize the changes in accelerometer values as voltage waveforms, which vary in response to hand movements.
 
-##Components Required
+## Components Required
 FRDM KL25Z board (with Cortex-M0+ processor)
 Oscilloscope
 Oscilloscope probes
