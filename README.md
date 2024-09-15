@@ -11,7 +11,7 @@ Oscilloscope probes
 Wires
 Software Used
 Keil uVision IDE: An integrated development environment (IDE) for developing embedded software on ARM-based microcontrollers.
-##Project Overview
+## Project Overview
 The project involves the following steps:
 
 1)Board Setup: The FRDM KL25Z board's inbuilt accelerometer is accessed via the I2C port.<br>
@@ -20,8 +20,8 @@ The project involves the following steps:
 4)LED Control: The internal LEDs of the board are programmed to light up in different colors (Red, Blue, Green) based on the movement direction (X, Y, Z).<br>
 5)Oscilloscope Output: The output ports of the board are connected to an oscilloscope instead of external LEDs. The X and Y accelerometer values control the waveforms displayed on the oscilloscope, causing them to stretch or shrink (i.e., increase or decrease).<br>
 6)Gesture-Based Device Control: Using the changes in the accelerometer values, external devices can be controlled through hand gestures.<br>
-##Procedure
-Program the FRDM KL25Z Board: Write code in ARM assembly or C using Keil uVision to interact with the accelerometer and output ports.<br>
+## Procedure
+Program the FRDM KL25Z Board: Wrote code in ARM assembly or C using Keil uVision to interact with the accelerometer and output ports.<br>
 Accelerometer Access: Use the I2C interface to obtain accelerometer readings.<br>
 Gesture Recognition: Implement code to check for specific thresholds in accelerometer values that correspond to hand gestures.<br>
 LED and Oscilloscope Control: Use the accelerometer values to control the board's internal LEDs and oscilloscope output.<br>
